@@ -1,8 +1,9 @@
 circleci-orb-semantic-release
 ===
+[![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/trustedshops-public/circleci-orb-semantic-release/blob/main/LICENSE)
+[![pre-commit](https://img.shields.io/badge/%E2%9A%93%20%20pre--commit-enabled-success)](https://pre-commit.com/)
 [![CircleCI Build Status](https://circleci.com/gh/trustedshops-public/circleci-orb-semantic-release.svg?style=shield "CircleCI Build Status")](https://circleci.com/gh/trustedshops-public/circleci-orb-semantic-release)
 [![CircleCI Orb Version](https://badges.circleci.com/orbs/trustedshops-public/semantic-release.svg)](https://circleci.com/orbs/registry/orb/trustedshops-public/semantic-release)
-[![GitHub License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/timo-reymann//master/LICENSE)
 
 
 CircleCI orb to run semantic-release inside your pipeline

@@ -1,0 +1,10 @@
+description: Run semantic release on main branch
+usage:
+  version: 2.1
+  orbs:
+    semantic-release: trustedshops-public/semantic-release@<version>
+  workflows:
+    semantic-release:
+      jobs:
+        - semantic-release/with-github-config:
+            tag-format: \${version}

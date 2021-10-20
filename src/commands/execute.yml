@@ -1,0 +1,7 @@
+description: >
+  Execute semantic-release
+steps:
+  - run:
+      name: Execute semantic-release
+      command: |
+        semantic-release

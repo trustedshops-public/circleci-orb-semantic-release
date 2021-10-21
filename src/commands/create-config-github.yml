@@ -1,5 +1,6 @@
 description: >
-  Create minimal .releaserc.json for usage with github
+  Create minimal .releaserc.json for usage with github.
+  This configuration is very minimal and creates a git tag and github release containing the release notes.
 parameters:
   tag-format:
     default: \${version}

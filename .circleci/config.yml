@@ -64,6 +64,14 @@ jobs:
           orb-name: semantic-release
           orb-slug: trustedshops-public
           orb-version: ${CIRCLE_TAG}
+  semantic-release:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run: |
+        sudo npm install -g @semantic-release/changelog @semantic-release/git
+        npx semantic-release
 
 workflows:
   continious:
@@ -85,3 +93,7 @@ workflows:
           <<: *filter_tags
           context:
             - circleci-orbs
+      - semantic-release:
+          <<: *require_tests
+          context:
+            - github-token

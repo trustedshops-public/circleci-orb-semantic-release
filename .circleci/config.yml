@@ -69,9 +69,10 @@ jobs:
       - image: circleci/node:lts
     steps:
       - checkout
-      - run: |
-        sudo npm install -g @semantic-release/changelog @semantic-release/git
-        npx semantic-release
+      - run:
+          command: |
+            sudo npm install -g @semantic-release/changelog @semantic-release/git
+            npx semantic-release
 
 workflows:
   continious:
@@ -95,5 +96,9 @@ workflows:
             - circleci-orbs
       - semantic-release:
           <<: *require_tests
+          filters:
+            branches:
+              only:
+                - main
           context:
             - github-token

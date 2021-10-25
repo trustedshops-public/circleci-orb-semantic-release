@@ -101,4 +101,4 @@ workflows:
               only:
                 - main
           context:
-            - github-token
+            - semantic-release

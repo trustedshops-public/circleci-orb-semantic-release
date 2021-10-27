@@ -71,8 +71,8 @@ jobs:
       - checkout
       - run:
           command: |
-            sudo npm install -g @semantic-release/changelog @semantic-release/git
-            npx semantic-release
+            sudo npm install -g @semantic-release/changelog @semantic-release/git semantic-release
+            semantic-release
 
 workflows:
   continious:

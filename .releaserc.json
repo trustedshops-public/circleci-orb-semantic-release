@@ -1,0 +1,26 @@
+{
+  "verifyConditions": [
+    "@semantic-release/github"
+  ],
+  "prepare": [
+    {
+      "path": "@semantic-release/changelog",
+      "changelogFile": "CHANGELOG.md"
+    },
+    {
+      "path": "@semantic-release/git",
+      "assets": "CHANGELOG.md"
+    }
+  ],
+  "publish": [
+    "@semantic-release/github",
+    {
+      "path": "semantic-release",
+      "name": "trustedshops-public/circleci-orb-semantic-release"
+    }
+  ],
+  "branches": [
+    "main"
+  ],
+  "tagFormat": "${version}"
+}

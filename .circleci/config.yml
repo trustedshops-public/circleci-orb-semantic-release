@@ -47,7 +47,7 @@ commands:
             echo "export AWS_REGION=eu-central-1" >> $BASH_ENV
       - aws-s3/copy:
           from: orb.yml
-          to: s3://ts-operations-tools-circleci-orb-releases-prod/<<parameters.orb-slug>>/<<parameters.orb-name>>/<<parameters.orb-version>>/orb.yml
+          to: s3://${S3_BUCKET_NAME_ORB_RELEASES}/<<parameters.orb-slug>>/<<parameters.orb-name>>/<<parameters.orb-version>>/orb.yml
 
 jobs:
   publish-dev:

@@ -1,5 +1,5 @@
 description: >
-  Install and run semantic-release
+  Install and run semantic-release with minimal configuration
 
 executor: default
 
@@ -12,6 +12,6 @@ parameters:
 steps:
   - checkout
   - install
-  - create-config-github:
+  - create-minimal-config-github:
       tag-format: <<parameters.tag-format>>
   - execute

@@ -1,6 +1,6 @@
 description: >
-  Create minimal .releaserc.json for usage with github.
-  This configuration is very minimal and creates a git tag and github release containing the release notes.
+  Create .releaserc.json for usage with github, including CHANGELOG.md generation.
+  This configuration is more advanced and creates a git tag, CHANGELOG.md and github release containing the release notes.
 parameters:
   tag-format:
     default: \${version}
@@ -13,4 +13,4 @@ steps:
         echo "export SEMANTIC_RELEASE_TAG_FORMAT='<<parameters.tag-format>>'" >> $BASH_ENV
   - run:
       name: Create .releaserc.json if not already present
-      command: <<include(scripts/create-releaserc.sh)>>
+      command: <<include(scripts/create-changelog-github-releaserc.sh)>>

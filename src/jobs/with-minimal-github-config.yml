@@ -1,0 +1,17 @@
+description: >
+  Install and run semantic-release with minimal configuration
+
+executor: default
+
+parameters:
+  tag-format:
+    default: \${version}
+    description: Tag format (make sure to escape dollar signs)
+    type: string
+
+steps:
+  - checkout
+  - install
+  - create-minimal-config-github:
+      tag-format: <<parameters.tag-format>>
+  - execute

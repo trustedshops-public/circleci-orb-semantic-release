@@ -1,0 +1,6 @@
+description: >
+  Install semantic-release and dependencies using npm
+steps:
+  - run:
+      name: Install semantic-release
+      command: <<include(scripts/install.sh)>>

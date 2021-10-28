@@ -1,0 +1,17 @@
+description: >
+  Install and run semantic-release with changelog configuration
+
+executor: default
+
+parameters:
+  tag-format:
+    default: \${version}
+    description: Tag format (make sure to escape dollar signs)
+    type: string
+
+steps:
+  - checkout
+  - install
+  - create-changelog-config-github:
+      tag-format: <<parameters.tag-format>>
+  - execute

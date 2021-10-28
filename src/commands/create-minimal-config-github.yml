@@ -1,0 +1,16 @@
+description: >
+  Create minimal .releaserc.json for usage with github.
+  This configuration is very minimal and creates a git tag and github release containing the release notes.
+parameters:
+  tag-format:
+    default: \${version}
+    description: Tag format (make sure to escape dollar signs)
+    type: string
+steps:
+  - run:
+      name: Populate parameters as env variables
+      command: |
+        echo "export SEMANTIC_RELEASE_TAG_FORMAT='<<parameters.tag-format>>'" >> $BASH_ENV
+  - run:
+      name: Create .releaserc.json if not already present
+      command: <<include(scripts/create-minimal-github-releaserc.sh)>>

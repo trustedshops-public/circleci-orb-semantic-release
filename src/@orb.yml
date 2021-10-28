@@ -1,0 +1,7 @@
+version: 2.1
+
+description: |
+  Run semantic-release inside your pipeline with ease.
+display:
+  home_url: "https://github.com/trustedshops-public/circleci-orb-semantic-release"
+  source_url: "https://github.com/trustedshops-public/circleci-orb-semantic-release"

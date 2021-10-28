@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/1.1.0...1.2.0) (2021-10-28)
+
+
+### Features
+
+* Pin npm version ([0fe2cf9](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/0fe2cf9ab03a78a7bcc997c4a5e31f7fb18ab9f2))
+
 # [1.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/1.0.0...1.1.0) (2021-10-28)
 
 

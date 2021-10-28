@@ -1,0 +1,14 @@
+description: Run semantic release with changelog github config on main branch
+usage:
+  version: 2.1
+  orbs:
+    semantic-release: trustedshops-public/semantic-release@<version>
+  workflows:
+    version: 2
+    continious:
+      jobs:
+        - semantic-release/with-changelog-github-config:
+            name: semantic-release
+            filters:
+              branches:
+                only: [ main ]

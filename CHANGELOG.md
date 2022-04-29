@@ -9,6 +9,24 @@
 ### Features
 
 * Pin default node version to 16 ([6af2604](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/6af260448c59ccf967732c0c14196cdec44a6278))
+* Trigger release ([1d8cd16](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/1d8cd16352a16a95f0dbae00f2826cc35c895913))
+
+
+### BREAKING CHANGES
+
+* The orb uses node 16 and no longer the latest lts version to prevent unexpected image changes.
+
+# [1.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/0.0.3...1.0.0) (2022-04-29)
+
+
+### Bug Fixes
+
+* Fix executor tag version ([8648de1](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/8648de1d2e2d2de484955fe423ca7efcf6c828e0))
+
+
+### Features
+
+* Pin default node version to 16 ([6af2604](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/6af260448c59ccf967732c0c14196cdec44a6278))
 
 
 ### BREAKING CHANGES

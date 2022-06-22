@@ -1,4 +1,5 @@
-sudo npm install --no-progress  -g semantic-release@18.0.0 \
-  @semantic-release/git@10.0.0 \
-  @semantic-release/changelog@6.0.0 \
-  conventional-changelog-conventionalcommits@4.6.1
+sudo npm install --no-progress  -g semantic-release@19.0.3 \
+  @semantic-release/git@10.0.1 \
+  @semantic-release/changelog@6.0.1 \
+  conventional-changelog-conventionalcommits@5.0.0
+

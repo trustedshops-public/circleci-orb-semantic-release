@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/2.0.0...3.0.0) (2022-06-22)
+
+
+### Features
+
+* Upgrade semantic-release and dependencies ([1ebe32b](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/1ebe32b6be7ecd378ba333b6a0b1773396af79cf))
+
+
+### BREAKING CHANGES
+
+* Uses semantic release 15 and conventional-changelog/conventional-commits 5
+
 # [2.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/1.0.0...2.0.0) (2022-04-29)
 
 

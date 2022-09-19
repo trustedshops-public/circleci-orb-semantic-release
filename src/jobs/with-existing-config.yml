@@ -8,9 +8,22 @@ parameters:
     default: ""
     description: Additional npm packages to install, seperated by space
     type: string
+  validate_config_file:
+    default: false
+    description: Validate the presence of the configuration file in the project
+    type: boolean
+  config_file:
+    default: ".releaserc.json"
+    description: Configuration file to check
+    type: string
 
 steps:
   - checkout
+  - when:
+      condition: <<parameters.validate_config_file>>
+      steps:
+        - verify-config:
+            config_file: <<parameters.config_file>>
   - install:
       additional_packages: <<parameters.additional_packages>>
   - execute

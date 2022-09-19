@@ -1,0 +1,16 @@
+description: Run semantic release with existing configuration on the main branch
+usage:
+  version: 2.1
+  orbs:
+    semantic-release: trustedshops-public/semantic-release@<version>
+  workflows:
+    version: 2
+    continious:
+      jobs:
+        - semantic-release/with-existing-config:
+            name: semantic-release
+            validate_config_file: true
+            config_file: .releaserc.json
+            filters:
+              branches:
+                only: [ main ]

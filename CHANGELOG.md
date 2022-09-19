@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.0.0...3.1.0) (2022-09-19)
+
+
+### Features
+
+* Extend customisation options ([#2](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/2)) ([426dceb](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/426dcebb7ef5bd93afeadb44afe8e51ba23c54c5))
+
 # [3.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/2.0.0...3.0.0) (2022-06-22)
 
 

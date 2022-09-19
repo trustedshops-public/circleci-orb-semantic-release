@@ -8,9 +8,7 @@ parameters:
     type: string
 steps:
   - run:
-      name: Populate parameters as env variables
-      command: |
-        echo "export SEMANTIC_RELEASE_TAG_FORMAT='<<parameters.tag-format>>'" >> $BASH_ENV
-  - run:
       name: Create .releaserc.json if not already present
       command: <<include(scripts/create-minimal-github-releaserc.sh)>>
+      environment:
+        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag-format>>

@@ -1,6 +1,15 @@
 description: >
   Install semantic-release and dependencies using npm
+
+parameters:
+  additional_packages:
+    default: ""
+    description: Additional npm packages to install, seperated by space
+    type: string
+
 steps:
   - run:
       name: Install semantic-release
       command: <<include(scripts/install.sh)>>
+      environment:
+        PARAM_ADDITIONAL_PACKAGES: <<parameters.additional_packages>>

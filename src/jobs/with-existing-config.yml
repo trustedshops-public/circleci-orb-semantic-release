@@ -1,0 +1,16 @@
+description: >
+  Install and run semantic-release with existing configuration files
+
+executor: default
+
+parameters:
+  additional_packages:
+    default: ""
+    description: Additional npm packages to install, seperated by space
+    type: string
+
+steps:
+  - checkout
+  - install:
+      additional_packages: <<parameters.additional_packages>>
+  - execute

@@ -1,3 +1,10 @@
+## [3.1.2](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.1...3.1.2) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix default escaping of tag-format ([828801f](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/828801feff23c103f2a61b959ab2cb406ea81454))
+
 ## [3.1.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.0...3.1.1) (2022-09-22)
 
 

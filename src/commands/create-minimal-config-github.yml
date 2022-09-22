@@ -3,7 +3,7 @@ description: >
   This configuration is very minimal and creates a git tag and github release containing the release notes.
 parameters:
   tag-format:
-    default: \${version}
+    default: ${version}
     description: Tag format (make sure to escape dollar signs)
     type: string
 steps:

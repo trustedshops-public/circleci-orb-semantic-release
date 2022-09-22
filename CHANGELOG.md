@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.0...3.1.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix tag format ([1b919f5](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/1b919f5abe79c807b8fd2fd67c8b2d8d92793c12))
+
 # [3.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.0.0...3.1.0) (2022-09-19)
 
 

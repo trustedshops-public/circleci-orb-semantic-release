@@ -1,3 +1,10 @@
+## [3.1.3](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.2...3.1.3) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix escaping in jobs ([e8462b6](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/e8462b6a7d941d96c8108c150efd67eea7279791))
+
 ## [3.1.2](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.1...3.1.2) (2022-09-22)
 
 

@@ -1,3 +1,10 @@
+## [3.1.4](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.3...3.1.4) (2022-10-31)
+
+
+### Bug Fixes
+
+* use conventionalcommits preset for notes ([13102d3](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/13102d3887193eb72c6eb12e85cace16fe2491a3))
+
 ## [3.1.3](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.2...3.1.3) (2022-09-22)
 
 

@@ -1,3 +1,10 @@
+## [3.1.5](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.4...3.1.5) (2022-11-21)
+
+
+### Bug Fixes
+
+* Allow multiple additional packages install ([ebf3cfe](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/ebf3cfec9e8239a1059dfe659bdcf8f2dd9e7b38))
+
 ## [3.1.4](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.3...3.1.4) (2022-10-31)
 
 

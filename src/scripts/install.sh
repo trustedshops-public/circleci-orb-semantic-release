@@ -11,5 +11,5 @@ $SUDO npm install --no-progress -g semantic-release@19.0.3 \
 
 if [ -n "$PARAM_ADDITIONAL_PACKAGES" ]
 then
-    $SUDO npm install --no-progress -g "${PARAM_ADDITIONAL_PACKAGES}"
+    $SUDO npm install --no-progress -g ${PARAM_ADDITIONAL_PACKAGES}
 fi

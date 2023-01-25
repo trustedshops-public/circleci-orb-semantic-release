@@ -66,7 +66,7 @@ jobs:
           orb-version: ${CIRCLE_TAG}
   semantic-release:
     docker:
-      - image: cimg/node:19.3
+      - image: cimg/node:19.5
     steps:
       - checkout
       - run:

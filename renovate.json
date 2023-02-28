@@ -11,6 +11,13 @@
       ],
       "datasourceTemplate": "npm",
       "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["^src\/.*yml$"],
+      "matchStrings": [
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*?default: (?<currentValue>.*)"
+      ],
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
   ]
 }

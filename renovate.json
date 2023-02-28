@@ -7,7 +7,7 @@
     {
       "fileMatch": ["^src\/scripts.*sh"],
       "matchStrings": [
-        "^\\s*(?<depName>@?.*\\b)@(?<currentValue>.*\\b)"
+        "(?<depName>@?.*\\b)@(?<currentValue>.*\\b)"
       ],
       "datasourceTemplate": "npm",
       "versioningTemplate": "semver"

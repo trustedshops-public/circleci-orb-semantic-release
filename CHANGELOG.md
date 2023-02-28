@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.0...4.0.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* changed node version of default executor to 19.7 to meet the 18+ version requirement of semantic-release ([#20](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/20)) ([9a50577](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/9a505775932fb333ad0d0eec18c04ff5ad47cc5c))
+
 # [4.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.5...4.0.0) (2023-02-28)
 
 

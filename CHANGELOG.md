@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.5...4.0.0) (2023-02-28)
+
+
+* feat(deps)!: update dependency semantic-release to v20 (#19) ([9c2d01e](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/9c2d01e6e56b33d19994ed0f1a31bd15c30ea0ab)), closes [#19](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/19)
+
+
+### BREAKING CHANGES
+
+* semantic-relase requires Node 18+ and might break things.
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
 ## [3.1.5](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.4...3.1.5) (2022-11-21)
 
 

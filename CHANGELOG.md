@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.1...4.1.0) (2023-05-17)
+
+
+### Features
+
+* **deps:** update node.js to v20.2 ([#32](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/32)) ([a9ce92e](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/a9ce92eb9bfc089a70afd0f00ee872deef7e4011))
+
 ## [4.0.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.0...4.0.1) (2023-02-28)
 
 

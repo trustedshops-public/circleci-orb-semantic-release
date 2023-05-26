@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+     "local>trustedshops-public/.github:renovate-config"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["^src\/scripts.*sh"],
+      "matchStrings": [
+        " *(?<depName>@?.*\\b)@(?<currentValue>.*\\b)"
+      ],
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["^src\/.*yml$"],
+      "matchStrings": [
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*?default: ?\"(?<currentValue>.*)?\""
+      ],
+      "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
+    }
+  ]
+}

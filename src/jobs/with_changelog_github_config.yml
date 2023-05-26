@@ -5,7 +5,7 @@ executor: default
 
 parameters:
   tag_format:
-    default: \${version}
+    default: '${version}'
     description: Tag format (make sure to escape dollar signs)
     type: string
 

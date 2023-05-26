@@ -1,3 +1,71 @@
+# [4.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.1...4.1.0) (2023-05-17)
+
+
+### Features
+
+* **deps:** update node.js to v20.2 ([#32](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/32)) ([a9ce92e](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/a9ce92eb9bfc089a70afd0f00ee872deef7e4011))
+
+## [4.0.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.0...4.0.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* changed node version of default executor to 19.7 to meet the 18+ version requirement of semantic-release ([#20](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/20)) ([9a50577](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/9a505775932fb333ad0d0eec18c04ff5ad47cc5c))
+
+# [4.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.5...4.0.0) (2023-02-28)
+
+
+* feat(deps)!: update dependency semantic-release to v20 (#19) ([9c2d01e](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/9c2d01e6e56b33d19994ed0f1a31bd15c30ea0ab)), closes [#19](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/19)
+
+
+### BREAKING CHANGES
+
+* semantic-relase requires Node 18+ and might break things.
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+## [3.1.5](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.4...3.1.5) (2022-11-21)
+
+
+### Bug Fixes
+
+* Allow multiple additional packages install ([ebf3cfe](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/ebf3cfec9e8239a1059dfe659bdcf8f2dd9e7b38))
+
+## [3.1.4](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.3...3.1.4) (2022-10-31)
+
+
+### Bug Fixes
+
+* use conventionalcommits preset for notes ([13102d3](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/13102d3887193eb72c6eb12e85cace16fe2491a3))
+
+## [3.1.3](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.2...3.1.3) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix escaping in jobs ([e8462b6](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/e8462b6a7d941d96c8108c150efd67eea7279791))
+
+## [3.1.2](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.1...3.1.2) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix default escaping of tag-format ([828801f](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/828801feff23c103f2a61b959ab2cb406ea81454))
+
+## [3.1.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.1.0...3.1.1) (2022-09-22)
+
+
+### Bug Fixes
+
+* Fix tag format ([1b919f5](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/1b919f5abe79c807b8fd2fd67c8b2d8d92793c12))
+
+# [3.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/3.0.0...3.1.0) (2022-09-19)
+
+
+### Features
+
+* Extend customisation options ([#2](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/2)) ([426dceb](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/426dcebb7ef5bd93afeadb44afe8e51ba23c54c5))
+
 # [3.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/2.0.0...3.0.0) (2022-06-22)
 
 

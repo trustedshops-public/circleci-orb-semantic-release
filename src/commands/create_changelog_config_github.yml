@@ -3,14 +3,12 @@ description: >
   This configuration is more advanced and creates a git tag, CHANGELOG.md and github release containing the release notes.
 parameters:
   tag_format:
-    default: \${version}
+    default: '${version}'
     description: Tag format (make sure to escape dollar signs)
     type: string
 steps:
   - run:
-      name: Populate parameters as env variables
-      command: |
-        echo "export SEMANTIC_RELEASE_TAG_FORMAT='<<parameters.tag_format>>'" >> $BASH_ENV
-  - run:
       name: Create .releaserc.json if not already present
       command: <<include(scripts/create-changelog-github-releaserc.sh)>>
+      environment:
+        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag-format>>

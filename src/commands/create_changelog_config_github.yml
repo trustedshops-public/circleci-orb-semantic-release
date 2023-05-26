@@ -11,4 +11,4 @@ steps:
       name: Create .releaserc.json if not already present
       command: <<include(scripts/create-changelog-github-releaserc.sh)>>
       environment:
-        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag-format>>
+        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag_format>>

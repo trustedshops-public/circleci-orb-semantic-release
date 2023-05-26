@@ -7,7 +7,7 @@ usage:
     version: 2
     continious:
       jobs:
-        - semantic-release/with-existing-config:
+        - semantic-release/with_existing_config:
             name: semantic-release
             validate_config_file: true
             config_file: .releaserc.json

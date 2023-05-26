@@ -2,7 +2,7 @@ description: >
   Create minimal .releaserc.json for usage with github.
   This configuration is very minimal and creates a git tag and github release containing the release notes.
 parameters:
-  tag-format:
+  tag_format:
     default: '${version}'
     description: Tag format (make sure to escape dollar signs)
     type: string
@@ -11,4 +11,4 @@ steps:
       name: Create .releaserc.json if not already present
       command: <<include(scripts/create-minimal-github-releaserc.sh)>>
       environment:
-        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag-format>>
+        SEMANTIC_RELEASE_TAG_FORMAT: <<parameters.tag_format>>

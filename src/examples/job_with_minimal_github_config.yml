@@ -1,4 +1,4 @@
-description: Run semantic release with changelog github config on main branch
+description: Run semantic release with minimal github config on main branch
 usage:
   version: 2.1
   orbs:
@@ -7,7 +7,7 @@ usage:
     version: 2
     continious:
       jobs:
-        - semantic-release/with-changelog-github-config:
+        - semantic-release/with_minimal_github_config:
             name: semantic-release
             filters:
               branches:

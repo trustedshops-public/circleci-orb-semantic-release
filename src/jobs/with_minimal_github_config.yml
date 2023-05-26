@@ -12,6 +12,6 @@ parameters:
 steps:
   - checkout
   - install
-  - create-minimal-config-github:
+  - create_minimal_config_github:
       tag_format: <<parameters.tag_format>>
   - execute

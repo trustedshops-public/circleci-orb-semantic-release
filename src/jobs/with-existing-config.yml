@@ -22,7 +22,7 @@ steps:
   - when:
       condition: <<parameters.validate_config_file>>
       steps:
-        - verify-config:
+        - verify_config:
             config_file: <<parameters.config_file>>
   - install:
       additional_packages: <<parameters.additional_packages>>

@@ -1,10 +1,10 @@
 description: >
-  Install and run semantic-release with minimal configuration
+  Install and run semantic-release with changelog configuration
 
 executor: default
 
 parameters:
-  tag-format:
+  tag_format:
     default: \${version}
     description: Tag format (make sure to escape dollar signs)
     type: string
@@ -12,6 +12,6 @@ parameters:
 steps:
   - checkout
   - install
-  - create-minimal-config-github:
-      tag-format: <<parameters.tag-format>>
+  - create_changelog_config_github:
+      tag_format: <<parameters.tag_format>>
   - execute

@@ -1,3 +1,13 @@
+# [5.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.1.0...5.0.0) (2023-05-31)
+
+
+* feat!: Migrate to orb tools v12 ([1b176cc](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/1b176cc575030164cea84f84a920ea254d897884))
+
+
+### BREAKING CHANGES
+
+* Command and job names have changed to snake case
+
 # [4.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.0.1...4.1.0) (2023-05-17)
 
 

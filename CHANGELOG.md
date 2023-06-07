@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.0.0...5.1.0) (2023-06-07)
+
+
+### Features
+
+* Add possibility to attach workspace on semantic-release ([562ff8f](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/562ff8f1f203aa396af2230e1ccdef544a1ecf21))
+
 # [5.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/4.1.0...5.0.0) (2023-05-31)
 
 

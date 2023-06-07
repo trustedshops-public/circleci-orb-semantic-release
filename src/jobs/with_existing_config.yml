@@ -16,9 +16,24 @@ parameters:
     default: ".releaserc.json"
     description: Configuration file to check
     type: string
+  attach_workspace:
+    default: false
+    description: >
+      Boolean for whether or not to attach to an existing workspace.
+    type: boolean
+  workspace_root:
+    default: .
+    description: >
+      Workspace root path that is either an absolute path or a path relative to the working directory.
+    type: string
 
 steps:
   - checkout
+  - when:
+      condition: <<parameters.attach_workspace>>
+      steps:
+        - attach_workspace:
+            at: <<parameters.workspace_root>>
   - when:
       condition: <<parameters.validate_config_file>>
       steps:

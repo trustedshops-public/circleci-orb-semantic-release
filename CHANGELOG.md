@@ -1,3 +1,10 @@
+## [5.1.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.1.0...5.1.1) (2023-06-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v6.1.0 ([#41](https://github.com/trustedshops-public/circleci-orb-semantic-release/issues/41)) ([b4cff83](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/b4cff83480676733953d9be6cad91de784255942))
+
 # [5.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.0.0...5.1.0) (2023-06-07)
 
 

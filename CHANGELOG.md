@@ -1,3 +1,18 @@
+## [6.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.1.1...6.0.0) (2023-11-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* updated to semantic-release v22 and conventionalcommits 7
+* updated semantic-release to v22 and conventionalcommits to v7 (empty commit to trigger release)
+* updated semantic-release to v22 and conventionalcommits to v7
+
+### Features
+
+* updated semantic-release to v22 and conventionalcommits to v7 ([466c5a7](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/466c5a7094e21e3d4b295d77c6be6571417df356))
+* updated semantic-release to v22 and conventionalcommits to v7 (empty commit to trigger release) ([9ed535e](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/9ed535e8ee7129cad06b9e8567987d06a457374c))
+* updated to semantic-release v22 and conventionalcommits 7 ([f77e05c](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/f77e05cde5d287d8958445e6e093543f41132e67))
+
 ## [5.1.1](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.1.0...5.1.1) (2023-06-19)
 
 

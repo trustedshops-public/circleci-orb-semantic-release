@@ -50,6 +50,7 @@ commands:
           name: Extract orb archive
           command: |
             tar -xvzf orb_source.tar.gz
+      - aws-cli/setup
       - aws-s3/copy:
           from: orb.yml
           to: s3://${S3_BUCKET_NAME_ORB_RELEASES}/<<parameters.orb-slug>>/<<parameters.orb-name>>/<<parameters.orb-version>>/orb.yml

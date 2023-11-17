@@ -51,8 +51,6 @@ commands:
           command: |
             tar -xvzf orb_source.tar.gz
       - aws-s3/copy:
-          auth:
-            - aws-cli/setup:
           from: orb.yml
           to: s3://${S3_BUCKET_NAME_ORB_RELEASES}/<<parameters.orb-slug>>/<<parameters.orb-name>>/<<parameters.orb-version>>/orb.yml
 

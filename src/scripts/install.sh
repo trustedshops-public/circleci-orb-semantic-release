@@ -5,7 +5,7 @@ else
 fi
 
 $SUDO npm install --no-progress -g \
-    semantic-release@22.0.8 \
+    semantic-release@22.0.12 \
     @semantic-release/git@10.0.1 \
     @semantic-release/changelog@6.0.3 \
     conventional-changelog-conventionalcommits@7.0.2

@@ -1,8 +1,8 @@
 description: >
-  Default executor using node 19.7
+  Default executor using cimg/node.
 
 docker:
-  - image: 'cimg/node:<<parameters.tag>>'
+  - image: "cimg/node:<<parameters.tag>>"
 
 parameters:
   tag:

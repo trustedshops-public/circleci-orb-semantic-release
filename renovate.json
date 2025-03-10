@@ -1,11 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-     "local>trustedshops-public/.github:renovate-config"
+    "local>trustedshops-public/.github:renovate-config"
   ],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["^src\/scripts.*sh"],
+      "customType": "regex",
+      "fileMatch": [
+        "^src/scripts.*sh"
+      ],
       "matchStrings": [
         " *(?<depName>@?.*\\b)@(?<currentValue>.*\\b)"
       ],
@@ -13,7 +16,10 @@
       "versioningTemplate": "semver"
     },
     {
-      "fileMatch": ["^src\/.*yml$"],
+      "customType": "regex",
+      "fileMatch": [
+        "^src/.*yml$"
+      ],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*?default: ?\"(?<currentValue>.*)?\""
       ],

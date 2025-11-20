@@ -1,3 +1,15 @@
+## [6.1.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/6.0.0...6.1.0) (2025-11-20)
+
+
+### Features
+
+* Upgrade to latest node lts ([3be6380](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/3be63809e75efe331fb42fccbf417d5a8fad0e76))
+
+
+### Bug Fixes
+
+* tag to node image ([f9d7067](https://github.com/trustedshops-public/circleci-orb-semantic-release/commit/f9d7067484e0e9207efb8edee24ce8dba84b274e))
+
 ## [6.0.0](https://github.com/trustedshops-public/circleci-orb-semantic-release/compare/5.1.1...6.0.0) (2023-11-17)
 
 

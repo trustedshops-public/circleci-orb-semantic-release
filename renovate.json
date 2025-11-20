@@ -6,8 +6,8 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": [
-        "^src/scripts.*sh"
+      "managerFilePatterns": [
+        "/^src/scripts.*sh/"
       ],
       "matchStrings": [
         " *(?<depName>@?.*\\b)@(?<currentValue>.*\\b)"
@@ -17,8 +17,8 @@
     },
     {
       "customType": "regex",
-      "fileMatch": [
-        "^src/.*yml$"
+      "managerFilePatterns": [
+        "/^src/.*yml$/"
       ],
       "matchStrings": [
         "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( versioning=(?<versioning>.*?))?\\s.*?default: ?\"(?<currentValue>.*)?\""

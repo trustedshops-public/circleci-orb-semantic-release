@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if grep "Alpine" /etc/issue >/dev/null 2>&1; then
     if [ "$ID" = 0 ]; then export SUDO=""; else export SUDO="sudo"; fi
 else
@@ -12,5 +14,5 @@ $SUDO npm install --no-progress -g \
 
 if [ -n "$PARAM_ADDITIONAL_PACKAGES" ]
 then
-    $SUDO npm install --no-progress -g ${PARAM_ADDITIONAL_PACKAGES}
+    $SUDO npm install --no-progress -g "${PARAM_ADDITIONAL_PACKAGES}"
 fi

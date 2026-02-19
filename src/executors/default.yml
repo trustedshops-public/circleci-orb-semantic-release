@@ -7,7 +7,7 @@ docker:
 parameters:
   tag:
     # renovate: datasource=docker depName=cimg/node versioning=docker
-    default: "22.22"
+    default: "22.22.0"
     description: >
       Pick a specific circleci/node image variant:
       https://hub.docker.com/r/cimg/node/tags

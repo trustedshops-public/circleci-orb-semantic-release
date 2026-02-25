@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if [[ ! -f ".releaserc.json" ]]
 then
   cat <<TEXT > .releaserc.json

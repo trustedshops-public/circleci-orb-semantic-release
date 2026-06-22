@@ -20,7 +20,7 @@ version: 2.1
     - command-tests
 
 orbs:
-  aws-s3: circleci/aws-s3@3.1.1
+  aws-s3: circleci/aws-s3@5.0.0
   circleci-cli: circleci/circleci-cli@0.1.11
   orb-tools: circleci/orb-tools@12.4.0
   <orb-name>: {}

@@ -10,7 +10,7 @@ $SUDO npm install --no-progress -g \
     semantic-release@24.2.9 \
     @semantic-release/git@10.0.1 \
     @semantic-release/changelog@6.0.3 \
-    conventional-changelog-conventionalcommits@9.1.0
+    conventional-changelog-conventionalcommits@10.2.0
 
 if [ -n "$PARAM_ADDITIONAL_PACKAGES" ]
 then

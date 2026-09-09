@@ -79,7 +79,7 @@ jobs:
 
   semantic-release:
     docker:
-      - image: cimg/node:22.23.2
+      - image: cimg/node:24.21.0
     steps:
       - checkout
       - run:
